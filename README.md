@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# GrabOne-Copy project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GrabOne is a website where the user can buy and review products
 
-## Available Scripts
+GrabOne-Copy It's an Copy of GrabOne website but using diffrent api requsets
+and reviewing movies insted of products.
 
-In the project directory, you can run:
+## Technologies/langues That been used:
 
-### `npm start`
+- [HTML](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [CSS](https://github.com/matiassingers/awesome-readme)
+- [JavaScript](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [Tailwind Css](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [React JS](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [React Hooks](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [React Icons](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [Axios](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [React Router](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## API Reference
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Movie Database Api
 
-### `npm test`
+#### Get all items
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-### `npm run build`
+#### Get Movies from this APIs
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+TMDb offers a powerful API service that is free to use as long as you properly attribute us as the source of the data and/or images you use.
+Here is an example:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```http
+TopRated:
+  GET https://api.themoviedb.org/3/movie/top_rated?api_key=<<key>>&language=en-US&page=1
+Trending:
+  GET https://api.themoviedb.org/3/movie/popular?api_key=<<key>>&language=en-US&page=2
+Popular:
+      https://api.themoviedb.org/3/movie/popular?api_key=<<key>>&language=en-US&page=1
+UpComing:
+      https://api.themoviedb.org/3/movie/upcoming?api_key=<<key>>&language=en-US&page=1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
