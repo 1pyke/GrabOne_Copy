@@ -2,23 +2,14 @@
 
 GrabOne is a website where the user can buy and review products
 
-GrabOne-Copy It's an Copy of GrabOne website but using diffrent api requsets
+GrabOne-Copy It's an Copy of GrabOne website wtih  diffrent APi's
 and reviewing movies insted of products.
 
-You Should Download All The Dependencies Before You Get Started!!
 
-## Technologies/langues That been used:
+-----
 
-- [HTML](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-- [CSS](https://github.com/matiassingers/awesome-readme)
-- [JavaScript](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [Tailwind Css](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [React JS](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [React Hooks](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [React Icons](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [Axios](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [React Router](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [Node v14.17.5](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
 
 ## API Reference
 
@@ -51,3 +42,15 @@ UpComing:
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
+
+## Technologies:
+- [HTML](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [CSS](https://github.com/matiassingers/awesome-readme)
+- [JavaScript](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [Tailwind Css](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [React JS](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [React Hooks](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [React Icons](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [Axios](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [React Router](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- [Node v14.17.5](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
