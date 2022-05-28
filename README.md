@@ -1,10 +1,9 @@
 # GrabOne-Copy project
 
-GrabOne is a website where the user can buy and review products
+GrabOne is a website where the user can buy and review products.
 
-GrabOne-Copy It's an Copy of GrabOne website wtih  diffrent APi's
-and reviewing movies insted of products.
-
+GrabOne-Copy It's an Copy of GrabOne website with different APi's
+and reviewing movies instead of products.
 
 -----
 
